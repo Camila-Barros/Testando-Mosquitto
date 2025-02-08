@@ -20,7 +20,7 @@ Projeto testando Mosquitto pela primeira vez, com Prompt de Comando, no Windows 
 
 ### <b> IMPLEMENTAÇÃO </b>
 
-  No arquivo "mosquitto_conf" deixar:
+  No arquivo "mosquitto_conf" (geralmente fica em C:\Program Files\mosquitto\mosquitto.conf) deixar:
   
   ```bash
     allow_anonymous true
@@ -56,7 +56,7 @@ Projeto testando Mosquitto pela primeira vez, com Prompt de Comando, no Windows 
 
 ### <b> IMPLEMENTAÇÃO </b>
 
-  No arquivo "mosquitto_conf" deixar:
+  No arquivo "mosquitto_conf" (geralmente fica em C:\Program Files\mosquitto\mosquitto.conf) deixar:
   
   ```bash
     allow_anonymous false
