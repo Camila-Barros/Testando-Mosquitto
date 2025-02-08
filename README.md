@@ -9,19 +9,39 @@ Projeto testando Mosquitto pela primeira vez, com Prompt de Comando, no Windows 
   Produtor (publisher):
   - Envia mensagens ao tópico assinado.
 
+
 ## Teste 1 - SEM autenticação
 
-  Em "mosquitto_conf" deixar:
+
+<b> IMPLEMENTAÇÃO </b>
+
+  No arquivo "mosquitto_conf" deixar:
   
   ```bash
     allow_anonymous true
   ```
+
+  Em uma janela (1) do Prompt de Comando:
+
+  ```bash
+    net start mosquitto
+    mosquitto_sub -h localhost -t "topico"
+  ```
+
+  Em outra janela (2) do Prompt de Comando:
+
+  ```bash
+    mosquitto_pub -h localhost -t "topico" -m "texto da mensagem"
+  ```
+  
  
-  Subscriber 1:
+<b> TELAS </b>
+
+Subscriber 1:
   
   ![image](https://github.com/Camila-Barros/Testando-Mosquitto/blob/main/subscriber1.png)
   
-  Publisher 1:
+Publisher 1:
   
   ![image](https://github.com/Camila-Barros/Testando-Mosquitto/blob/main/publisher1.png)
 
