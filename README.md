@@ -19,11 +19,12 @@ Projeto testando Mosquitto pela primeira vez, com Prompt de Comando, no Windows 
  
   Subscriber 1:
   
-  IMAGEM
+  ![image](https://github.com/Camila-Barros/Testando-Mosquitto/blob/main/subscriber1.png)
   
   Publisher 1:
   
-  IMAGEM
+  ![image](https://github.com/Camila-Barros/Testando-Mosquitto/blob/main/publisher1.png)
+
 
 
 ## Teste 2 - COM autenticação
