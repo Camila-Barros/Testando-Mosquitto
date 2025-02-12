@@ -89,6 +89,35 @@ Projeto testando Mosquitto pela primeira vez, com Prompt de Comando, no Windows 
   ![image](https://github.com/Camila-Barros/Testando-Mosquitto/blob/main/publisher2.png)
 
 
+## Dispositivos:
+
+Para criar um novo usuário, abra o Prompt de Comando e entre na pasta do msoquitto:
+
+  ```bash
+    cd "C:\Program Files\mosquitto"
+    #colocar o caminho do local onde está a pasta
+  ```
+
+Criar o novo usuário e senha:
+
+  ```bash
+    mosquitto_passwd -b passwd.txt USUARIO2 "nova_senha"
+    #conferir se o nome do arquivo de senhas é passwd
+  ```
+
+Verificar se o novo usuário foi criado, listando todos os usuários cadastrados:
+
+  ```bash
+    type passwd.txt
+  ```
+
+Depois de adicionar o usuário, reinicie o Mosquitto para aplicar as mudanças:
+
+  ```bash
+    net stop mosquitto
+    net start mosquitto
+  ```
+
 
 ## Autora
 
