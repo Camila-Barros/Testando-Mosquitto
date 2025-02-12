@@ -89,7 +89,7 @@ Projeto testando Mosquitto pela primeira vez, com Prompt de Comando, no Windows 
   ![image](https://github.com/Camila-Barros/Testando-Mosquitto/blob/main/publisher2.png)
 
 
-## Dispositivos:
+## Nova autenticação:
 
 Para criar um novo usuário, abra o Prompt de Comando e entre na pasta do msoquitto:
 
